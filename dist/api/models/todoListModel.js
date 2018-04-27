@@ -1,9 +1,10 @@
 'use strict'; //?
-const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
 
 //this will create a new
-const TaskSchema = new Schema({
+var TaskSchema = new Schema({
     name: {
         type: String,
         required: 'Task name is required!'
