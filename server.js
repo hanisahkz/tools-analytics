@@ -4,7 +4,7 @@ const express = require('express'),
     //1. create an express object
     app = express(),
     //1.1 to dynamically use the environment port number or default 3000
-    port = process.env.PORT || 3000,
+    port = process.env.PORT || 3030,
     //2. import bodyparser module to performs parsing
     bodyParser = require('body-parser'),
     //3. configuring database connection
