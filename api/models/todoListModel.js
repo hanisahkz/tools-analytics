@@ -8,10 +8,6 @@ const TaskSchema = new Schema({
         type: String,
         required: 'Task name is required!'
     },
-    // Created_date: {
-    //     type: Date,
-    //     default: Date.now
-    // },
     status: {
         type: [{
             type: String,

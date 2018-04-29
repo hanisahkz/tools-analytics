@@ -1,0 +1,4 @@
+/*test for css-loader*/
+body {
+    line-height: 2;
+}
