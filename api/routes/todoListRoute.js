@@ -18,4 +18,10 @@ module.exports = (app) => {
     //had to define as a separate route as there's no method 'delete'
     app.route('/tasks/delete/:taskId')
         .post(todoList.delete_a_task);
+
+    //experiment not successful
+    //test route and template
+    app.route('/asd')
+        .get(todoList.list_all_asd);
+
 };

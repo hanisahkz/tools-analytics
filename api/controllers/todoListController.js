@@ -42,3 +42,10 @@ exports.delete_a_task = (req, res) => {
         res.json({ message: 'Task successfully deleted' });
     });
 };
+
+//experiment not successful
+exports.list_all_asd = (req, res) => {
+    res.render('asdf', (err, html) => {
+        res.send(html);
+    });
+};
